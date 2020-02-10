@@ -28,20 +28,33 @@
             <h1 class="header__title">친구</h1>
          </div>
          <div class="header__header-column">
-            <span class="header__icon">
-               <i class="fas fa-search"></i>
-            </span>
-            <span class="header__icon">
-               <i class="fas fa-user-plus"></i>
-            </span>
-            <span class="header__icon">
-               <i class="fas fa-music"></i>
-            </span>
-            <span class="header__icon">
-               <i class="fas fa-cog"></i>
-            </span>
+            <nav class="nav">
+               <ul class="nav__list">
+                  <li class="nav__list-item">
+                     <a href="" class="nav__list-link">
+                        <i class="fas fa-search"></i>
+                     </a>
+                  </li>
+                  <li class="nav__list-item">
+                     <a href="addfriend.html" class="nav__list-link">
+                        <i class="fas fa-user-plus"></i>
+                     </a>
+                  </li>
+                  <li class="nav__list-item">
+                     <a href="" class="nav__list-link">
+                        <i class="fas fa-music"></i>
+                     </a>
+                  </li>
+                  <li class="nav__list-item">
+                     <a href="" class="nav__list-link">
+                        <i class="fas fa-cog"></i>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
          </div>
       </header>
+      <!-- end of the header -->
       <main class="friends">
          <header class="friends__header">
             <!-- my profile at the top -->
@@ -57,23 +70,84 @@
                      </span>
                   </div>
                </div>
+               <div class="friend__column">
+                  <div class="friend__music">
+                     <span>이 노랜 꽤 오래된 거야 (A song from the past)</span>
+                     <span>솔라, 케이시 (Kassy)</span>
+                     <i class="fas fa-play"></i>
+                  </div>
+               </div>
             </div>
          </header>
+         <!-- birthday friends -->
+         <div class="friends__bday">
+            <h5 class="friends__title">생일인 친구</h5>
+            <div class="frieds__friend friend">
+               <img src="images/cake.png" class="g-avatar friend__avatar" />
+               <div class="friend__column">
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        친구의 생일을 확인해보세요!
+                     </span>
+                  </div>
+               </div>
+               <div class="friend__column">
+                  <div class="friend__number">
+                     <span>
+                        10 >
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
          <!-- favorites -->
          <div class="friends__fav">
             <h5 class="friends__title">즐겨찾기</h5>
             <div class="frieds__friend friend">
                <img src="images/duksoon.png" class="g-avatar friend__avatar" />
-               <div class="friend__content">
-                  <span class="friend__name">
-                     🍷🍷더콰맛 레드와인🍷🍷
-                  </span>
+               <div class="friend__column">
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        🍷🍷더콰맛 레드와인🍷🍷
+                     </span>
+                     <span class="friend__status"></span>
+                  </div>
+               </div>
+               <div class="friend__column">
+                  <div class="friend__music">
+                     <span>
+                        예쁜 나이 25살 송지은
+                     </span>
+                     <i class="fas fa-play"></i>
+                  </div>
                </div>
             </div>
          </div>
+         <!-- recommended friends -->
+         <div class="friends__recommended">
+            <h5 class="friends__title">생일인 친구</h5>
+            <div class="frieds__friend friend">
+               <img src="images/smiley.png" class="g-avatar friend__avatar" />
+               <div class="friend__column">
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        새로운 친구를 만나보세요!
+                     </span>
+                  </div>
+               </div>
+               <div class="friend__column">
+                  <div class="friend__number">
+                     <span>
+                        51 >
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- friends list -->
          <ul class="friends__list">
             <h5 class="friends__title">Friends 5</h5>
-            <li class="frieds__friend friend">
+            <li class="friends__friend friend">
                <div class="friend__column">
                   <img
                      src="images/duksoon.png"
@@ -87,14 +161,105 @@
                   </div>
                </div>
                <div class="friend__column">
-                  <span>
-                     예쁜 나이 25살 송지은
-                  </span>
-                  <i class="fas fa-play"></i>
+                  <div class="friend__music">
+                     <span>예쁜 나이 25살</span>
+                     <span>송지은</span>
+                     <i class="fas fa-play"></i>
+                  </div>
+               </div>
+            </li>
+            <li class="friends__friend friend">
+               <div class="friend__column">
+                  <img src="images/woman.jpg" class="g-avatar friend__avatar" />
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        옹씨
+                     </span>
+                     <span class="friend__status">
+                        컴활필기/결산서/결과보고서/사전교육/평가회/
+                        교육학인강/교육실습준비/창의품/국제품/교육봉사
+                     </span>
+                  </div>
+               </div>
+               <div class="friend__column">
+                  <div class="friend__music">
+                     <span>Yellow Hearts</span>
+                     <span>Ant Saunders</span>
+                     <i class="fas fa-play"></i>
+                  </div>
+               </div>
+            </li>
+            <li class="friends__friend friend">
+               <div class="friend__column">
+                  <img src="images/woman.jpg" class="g-avatar friend__avatar" />
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        국한 김규원
+                     </span>
+                     <span class="friend__status"></span>
+                  </div>
+               </div>
+               <div class="friend__column"></div>
+            </li>
+            <li class="friends__friend friend">
+               <div class="friend__column">
+                  <img src="images/woman.jpg" class="g-avatar friend__avatar" />
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        국한 김효진
+                     </span>
+                     <span class="friend__status"></span>
+                  </div>
+               </div>
+               <div class="friend__column">
+                  <div class="friend__music">
+                     <span>Ring</span>
+                     <span>Selena Gomez</span>
+                     <i class="fas fa-play"></i>
+                  </div>
+               </div>
+            </li>
+            <li class="friends__friend friend">
+               <div class="friend__column">
+                  <img src="images/man.png" class="g-avatar friend__avatar" />
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        증미공주님
+                     </span>
+                     <span class="friend__status"></span>
+                  </div>
+               </div>
+               <div class="friend__column">
+                  <div class="friend__music">
+                     <span>DANCE DANCE</span>
+                     <span>DAY6 (데이식스)</span>
+                     <i class="fas fa-play"></i>
+                  </div>
+               </div>
+            </li>
+            <li class="friends__friend friend">
+               <div class="friend__column">
+                  <img src="images/woman.jpg" class="g-avatar friend__avatar" />
+                  <div class="friend__content">
+                     <span class="friend__name">
+                        마린이
+                     </span>
+                     <span class="friend__status">
+                        Filled wi luv for my little cutie pies❤️
+                     </span>
+                  </div>
+               </div>
+               <div class="friend__column">
+                  <div class="friend__music">
+                     <span>All Me (feat. Keyshia Cole)</span>
+                     <span>Kehlani</span>
+                     <i class="fas fa-play"></i>
+                  </div>
                </div>
             </li>
          </ul>
       </main>
+      <!-- navigation bar at the bottom -->
       <nav class="nav">
          <ul class="nav__list">
             <li class="nav__list-item">
