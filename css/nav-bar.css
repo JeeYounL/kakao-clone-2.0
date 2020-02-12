@@ -20,3 +20,18 @@
 .nav .nav__list-link {
    position: relative;
 }
+
+.nav .nav__badge {
+   position: absolute;
+   font-size: 12px;
+   top: -5px;
+   right: -18px;
+   color: white;
+   background-color: #ff6128;
+   width: 24px;
+   height: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 9px;
+}
