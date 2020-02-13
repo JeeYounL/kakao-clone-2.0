@@ -6,6 +6,7 @@
 @import "friend.css";
 @import "more.css";
 @import "friends.css";
+@import "addfriend.css";
 
 * {
    box-sizing: border-box;
