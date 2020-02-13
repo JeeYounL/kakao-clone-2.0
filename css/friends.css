@@ -1,0 +1,28 @@
+.friends .friends__header {
+   padding-bottom: 15px;
+}
+.friends .friends__bday,
+.friends .friends__fav,
+.friends .friends__recommended,
+.friends .friends__list {
+   padding: 10px 0px;
+   border-top: 1px solid #19191b;
+}
+.friends .friends__title {
+   font-size: 11px;
+   opacity: 0.6;
+   margin-bottom: 10px;
+}
+.friends .friend__number {
+   font-size: 14px;
+   opacity: 0.6;
+}
+.friends .friend__music span {
+   font-size: 12px;
+   opacity: 0.7;
+}
+.friends .friend__music {
+   border: 1.4px solid #36874d;
+   padding: 6px 10px;
+   border-radius: 20px;
+}
