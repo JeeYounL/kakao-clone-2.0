@@ -1,0 +1,29 @@
+.addfriend .addfriend__header-column {
+   display: flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.addfriend .header__backbtn {
+   padding-right: 10px;
+   font-size: 23px;
+}
+.addfriend__header .header__title {
+   font-size: 23px;
+   padding-left: 40%;
+}
+.addfriend .header__list {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+.addfriend .header__list-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.list-item__title {
+   display: block;
+   margin-top: 10px;
+}
