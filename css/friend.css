@@ -46,3 +46,14 @@
 .friends__header .friend__name {
    font-weight: 600;
 }
+.friend__addbtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1b1a1a;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 15px;
+   padding-left: 15px;
+   border-radius: 3px;
+}
