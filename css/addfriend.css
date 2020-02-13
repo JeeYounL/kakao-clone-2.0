@@ -14,9 +14,9 @@
 .addfriend .header__list {
    display: flex;
    justify-content: space-between;
-   padding-top: 20px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-top: 30px;
+   padding-right: 45px;
+   padding-left: 45px;
 }
 .addfriend .header__list-item {
    display: flex;
@@ -25,5 +25,5 @@
 }
 .list-item__title {
    display: block;
-   margin-top: 10px;
+   margin-top: 20px;
 }
