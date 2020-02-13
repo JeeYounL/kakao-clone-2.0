@@ -6,6 +6,7 @@
    display: flex;
    justify-content: space-between;
    padding-right: 23px;
+   padding-bottom: 5px;
 }
 
 .status-bar i {
