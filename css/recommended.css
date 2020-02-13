@@ -1,0 +1,7 @@
+.recommended__friends {
+   padding-top: 90px;
+}
+.recommended__friends .friend__content,
+.recommended__friends .friend__avatar {
+   font-size: 18px;
+}
