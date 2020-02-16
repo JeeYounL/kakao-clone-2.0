@@ -2,13 +2,14 @@
 .friends .friends__fav,
 .friends .friends__recommended,
 .friends .friends__list {
-   padding: 10px 0px;
+   padding: 8px 0px;
    border-top: 1px solid #19191b;
 }
 .friends .friends__title {
    font-size: 11px;
    opacity: 0.6;
    margin-bottom: 10px;
+   margin-left: 10px;
 }
 .friends .friend__number {
    font-size: 14px;
