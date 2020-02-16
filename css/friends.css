@@ -1,7 +1,7 @@
-.friends .friends__bday,
-.friends .friends__fav,
-.friends .friends__recommended,
-.friends .friends__list {
+.friends .friends__list,
+.friends__fav,
+.friends__bday,
+.friends__recommended {
    padding: 8px 0px;
    border-top: 1px solid #19191b;
 }
@@ -10,6 +10,7 @@
    opacity: 0.6;
    margin-bottom: 10px;
    margin-left: 10px;
+   margin-top: 6px;
 }
 .friends .friend__number {
    font-size: 14px;
