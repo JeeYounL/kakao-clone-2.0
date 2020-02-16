@@ -10,6 +10,10 @@
    padding: 20px 0px;
    border-bottom: 1px solid #1f1f22;
 }
+.settings__setting:last-child {
+   margin-bottom: 0;
+   /* no margin-bottom for the last one */
+}
 .settings__icon {
    margin-right: 10px;
    font-size: 20px;
