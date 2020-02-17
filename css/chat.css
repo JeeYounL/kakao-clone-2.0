@@ -1,0 +1,35 @@
+.chat__write {
+   position: fixed;
+   bottom: 10px;
+   width: 80%;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+   display: flex;
+   justify-content: space-between;
+
+   align-items: center;
+   background-color: #2c2c2e;
+   padding: 15px 40px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px rgba(216, 191, 203, 0.404);
+}
+.chat__write-input {
+   background-color: #38383a;
+   border: 1px solid #424246;
+   border-radius: 30px;
+   padding-left: 50%;
+   padding-right: 55%;
+   padding-bottom: 20px;
+   right: 0;
+   width: 80%;
+   align-items: center;
+}
+.chat__write-column {
+   display: flex;
+   padding-left: 5px;
+}
+.chat__more {
+   justify-content: space-between;
+   margin-left: 10px;
+}
