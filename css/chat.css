@@ -38,6 +38,7 @@
    align-items: center;
    padding-top: 80px;
    border-top: 1px solid #424246;
+   padding: 80px 20px;
 }
 .chat__timestamp {
    font-size: 12px;
