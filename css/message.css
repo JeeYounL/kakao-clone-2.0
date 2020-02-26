@@ -1,42 +1,59 @@
 .message {
    display: flex;
-   align-content: center;
+   align-content: flex-start;
+   margin-bottom: 3px;
 }
 .message__content {
    width: 100%;
-   display: flex;
+   display: block;
    align-content: center;
 }
+.message__bubble {
+   display: flex;
+}
 .message__timestamp {
-   align-content: center;
+   font-size: 11px;
+   align-self: flex-end;
+   margin-bottom: 5px;
 }
 .incoming-message {
    display: flex;
    align-items: center;
-   align-self: flex-start;
+   align-self: stretch;
 }
 .incoming-message img {
    width: 50px;
    border-radius: 10px;
-   margin-right: 20px;
+   margin-right: 10px;
 }
-.incoming-message .message__bubble {
-   background-color: black;
+.incoming-message .message__text {
+   background-color: rgb(247, 183, 238);
+   color: black;
    box-shadow: 7px 8px 8px rgba(41, 0, 20, 0.404);
-   border-radius: 13px;
-   padding: 10px 10px;
-   margin: 5px;
+   border-radius: 15px;
+   padding: 11px 12px;
+   margin: 3px;
+   border-top-left-radius: 0px;
+}
+.incoming-message .message__author {
+   margin-bottom: 5px;
+   padding-top: 20px;
+   display: block;
+   opacity: 90%;
+   font-size: 14px;
+   align-self: flex-start;
 }
 .outgoing-message {
    display: flex;
    align-items: center;
    align-self: flex-end;
 }
-.outgoing-message .message__bubble {
+.outgoing-message .message__text {
    background-color: white;
    color: black;
    box-shadow: 7px 8px 8px rgba(41, 0, 20, 0.404);
-   border-radius: 13px;
-   padding: 10px 10px;
-   margin: 5px;
+   border-radius: 15px;
+   padding: 11px 12px;
+   margin: 3px;
+   border-bottom-right-radius: 0px;
 }
