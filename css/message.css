@@ -1,8 +1,14 @@
 .message {
-   width: 30%;
+   display: flex;
+   align-content: center;
 }
 .message__content {
-   width: 80%;
+   width: 100%;
+   display: flex;
+   align-content: center;
+}
+.message__timestamp {
+   align-content: center;
 }
 .incoming-message {
    display: flex;
@@ -14,12 +20,23 @@
    border-radius: 10px;
    margin-right: 20px;
 }
+.incoming-message .message__bubble {
+   background-color: black;
+   box-shadow: 7px 8px 8px rgba(41, 0, 20, 0.404);
+   border-radius: 13px;
+   padding: 10px 10px;
+   margin: 5px;
+}
 .outgoing-message {
    display: flex;
    align-items: center;
    align-self: flex-end;
 }
-.incoming-message .message__content {
-   background-color: black;
+.outgoing-message .message__bubble {
+   background-color: white;
+   color: black;
    box-shadow: 7px 8px 8px rgba(41, 0, 20, 0.404);
+   border-radius: 13px;
+   padding: 10px 10px;
+   margin: 5px;
 }
