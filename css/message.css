@@ -15,6 +15,7 @@
    font-size: 11px;
    align-self: flex-end;
    margin-bottom: 5px;
+   opacity: 80%;
 }
 .incoming-message {
    display: flex;
@@ -27,9 +28,9 @@
    margin-right: 10px;
 }
 .incoming-message .message__text {
-   background-color: rgb(247, 183, 238);
-   color: black;
-   box-shadow: 7px 8px 8px rgba(41, 0, 20, 0.404);
+   background-image: linear-gradient(to right, #4568dc, #b06ab3);
+   color: white;
+   box-shadow: 7px 8px 8px rgba(0, 0, 0, 0.404);
    border-radius: 15px;
    padding: 11px 12px;
    margin: 3px;
@@ -39,7 +40,7 @@
    margin-bottom: 5px;
    padding-top: 20px;
    display: block;
-   opacity: 90%;
+   opacity: 80%;
    font-size: 14px;
    align-self: flex-start;
 }
@@ -49,9 +50,9 @@
    align-self: flex-end;
 }
 .outgoing-message .message__text {
-   background-color: white;
-   color: black;
-   box-shadow: 7px 8px 8px rgba(41, 0, 20, 0.404);
+   background-image: linear-gradient(to right, #b06ab3, #4568dc);
+   color: white;
+   box-shadow: -7px 8px 8px rgba(0, 0, 0, 0.404);
    border-radius: 15px;
    padding: 11px 12px;
    margin: 3px;
