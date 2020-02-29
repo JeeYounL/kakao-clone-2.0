@@ -7,6 +7,7 @@
    justify-content: space-between;
    padding-right: 23px;
    padding-bottom: 5px;
+   z-index: 2;
 }
 
 .status-bar i {
