@@ -12,13 +12,13 @@
 }
 @keyframes float {
    0% {
-      box-shadow: 0 7px 10px 5px rgba(0, 0, 0, 0.404);
+      box-shadow: 0 7px 10px 0px rgba(0, 0, 0, 0.404);
    }
    50% {
-      box-shadow: 0 7px 30px -85px rgba(0, 0, 0, 0.404);
+      box-shadow: 0 7px 30px -65px rgba(0, 0, 0, 0.404);
    }
    100% {
-      box-shadow: 0 7px 10px 5px rgba(0, 0, 0, 0.404);
+      box-shadow: 0 7px 10px 0px rgba(0, 0, 0, 0.404);
    }
 }
 .chat__write {
