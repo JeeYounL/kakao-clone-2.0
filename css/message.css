@@ -26,6 +26,7 @@
    width: 50px;
    border-radius: 10px;
    margin-right: 10px;
+   box-shadow: -7px 8px 8px rgba(0, 0, 0, 0.404);
 }
 .incoming-message .message__text {
    background-image: linear-gradient(to right, #4568dc, #b06ab3);
