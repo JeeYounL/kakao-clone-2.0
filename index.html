@@ -1,162 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-         rel="stylesheet"
-         href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-         crossorigin="anonymous"
-      />
-      <link rel="stylesheet" href="css/styles.css" />
-      <title>Chats | Kakao Clone</title>
-   </head>
-   <body>
-      <div class="status-bar">
-         <div class="status-bar__column">
-            <span class="status-bar__clock">2:27</span>
-         </div>
-         <div class="status-bar__column">
-            <i class="fas fa-signal"></i>
-            <i class="fas fa-wifi"></i>
-            <i class="fas fa-battery-full"></i>
-         </div>
-      </div>
-      <header class="header">
-         <div class="header__header-column">
-            <h1 class="header__title">채팅</h1>
-         </div>
-         <div class="header__header-column">
-            <span class="header__icon">
-               <i class="fas fa-search"></i>
-            </span>
-            <span class="header__icon">
-               <i class="fas fa-comment-medical"></i>
-            </span>
-            <span class="header__icon">
-               <i class="fas fa-music"></i>
-            </span>
-            <span class="header__icon">
-               <a href="settings.html">
-                  <i class="fas fa-cog"></i>
-               </a>
-            </span>
-         </div>
-      </header>
-      <main class="chats">
-         <ul class="chats__list">
-            <li class="chats__chat chatelement">
-               <a href="chat_duksoon.html">
-                  <div class="chats__chat friend friend--lg">
-                     <div class="friend__column">
-                        <img
-                           src="images/duksoon.png"
-                           class="m-avatar friend__avatar"
-                        />
-                        <div class="friend__content">
-                           <span class="friend__name">
-                              🍷🍷더콰맛 레드와인🍷🍷
-                              <i class="fas fa-thumbtack"></i>
-                           </span>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Chats | Kakao Clone</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span class="status-bar__clock">2:27</span>
+			</div>
+			<div class="status-bar__column">
+				<i class="fas fa-signal"></i>
+				<i class="fas fa-wifi"></i>
+				<i class="fas fa-battery-full"></i>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__header-column">
+				<h1 class="header__title">채팅</h1>
+			</div>
+			<div class="header__header-column">
+				<span class="header__icon">
+					<i class="fas fa-search"></i>
+				</span>
+				<span class="header__icon">
+					<i class="fas fa-comment-medical"></i>
+				</span>
+				<span class="header__icon">
+					<i class="fas fa-music"></i>
+				</span>
+				<span class="header__icon">
+					<a href="settings.html">
+						<i class="fas fa-cog"></i>
+					</a>
+				</span>
+			</div>
+		</header>
+		<main class="chats">
+			<ul class="chats__list">
+				<li class="chats__chat chatelement">
+					<a href="chat_ryan.html">
+						<div class="chats__chat friend friend--lg">
+							<div class="friend__column">
+								<img src="images/ryan.png" class="m-avatar friend__avatar" />
+								<div class="friend__content">
+									<span class="friend__name">
+										라이언
+										<i class="fas fa-thumbtack"></i>
+									</span>
 
-                           <span class="friend__preview">
-                              나도 사랑해😘
-                           </span>
-                        </div>
-                     </div>
-                     <div class="friend__column">
-                        <span class="chatroom__timestamp">
-                           오전 12:43
-                        </span>
-                     </div>
-                  </div>
-               </a>
-            </li>
-            <li class="chats__chat chatelement">
-               <a href="chat_zeun.html">
-                  <div class="chats__chat friend friend--lg">
-                     <div class="friend__column">
-                        <img
-                           src="images/woman.jpg"
-                           class="m-avatar friend__avatar"
-                        />
-                        <div class="friend__content">
-                           <span class="friend__name">
-                              임지은
-                           </span>
-                           <span class="friend__preview">
-                              코딩수업같이
-                           </span>
-                        </div>
-                     </div>
-                     <div class="friend__column">
-                        <span class="chatroom__timestamp">
-                           오후 1:31
-                        </span>
-                     </div>
-                  </div>
-               </a>
-            </li>
-            <li class="chats__chat chatelement">
-               <a href="">
-                  <div class="chats__chat friend friend--lg">
-                     <div class="friend__column">
-                        <img
-                           src="images/man.png"
-                           class="m-avatar friend__avatar"
-                        />
-                        <div class="friend__content">
-                           <span class="friend__name">
-                              증미공주님
-                           </span>
-                           <span class="friend__preview">
-                              ㅋㅋㅋㅋㅋㅋㅋㅋ
-                           </span>
-                        </div>
-                     </div>
-                     <div class="friend__column">
-                        <span class="chatroom__timestamp">
-                           어제
-                        </span>
-                     </div>
-                  </div>
-               </a>
-            </li>
-         </ul>
-      </main>
-      <nav class="nav">
-         <ul class="nav__list">
-            <li class="nav__list-item">
-               <a href="friends.html" class="nav__list-link">
-                  <i class="far fa-user"></i>
-               </a>
-            </li>
-            <li class="nav__list-item">
-               <a href="index.html" class="nav__list-link">
-                  <div class="nav__badge">35</div>
-                  <i class="fas fa-comment"></i>
-               </a>
-            </li>
-            <li class="nav__list-item">
-               <a href="hashtagnews.html" class="nav__list-link">
-                  <i class="fas fa-hashtag"></i>
-               </a>
-            </li>
-            <li class="nav__list-item">
-               <a href="gamestar.html" class="nav__list-link">
-                  <i class="far fa-star"></i>
-               </a>
-            </li>
-            <li class="nav__list-item">
-               <a href="more.html" class="nav__list-link">
-                  <i class="fas fa-ellipsis-h"></i>
-               </a>
-            </li>
-         </ul>
-      </nav>
-      <div class="bigScreen">
-         <span class="bigScreen__text">Please make your screen smaller!</span>
-      </div>
-   </body>
+									<span class="friend__preview">
+										열심히 해볼게ㅎㅎ 화이팅! 곧보자!😘
+									</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<span class="chatroom__timestamp">
+									오전 12:43
+								</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="chats__chat chatelement">
+					<a href="chat_zeun.html">
+						<div class="chats__chat friend friend--lg">
+							<div class="friend__column">
+								<img src="images/woman.jpg" class="m-avatar friend__avatar" />
+								<div class="friend__content">
+									<span class="friend__name">
+										임지은
+									</span>
+									<span class="friend__preview">
+										코딩수업같이
+									</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<span class="chatroom__timestamp">
+									오후 1:31
+								</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="chats__chat chatelement">
+					<a href="">
+						<div class="chats__chat friend friend--lg">
+							<div class="friend__column">
+								<img
+									src="images/kakao_con.jpg"
+									class="m-avatar friend__avatar"
+								/>
+								<div class="friend__content">
+									<span class="friend__name">
+										콘
+									</span>
+									<span class="friend__preview">
+										뿌앵
+									</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<span class="chatroom__timestamp">
+									어제
+								</span>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</main>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__list-item">
+					<a href="friends.html" class="nav__list-link">
+						<i class="far fa-user"></i>
+					</a>
+				</li>
+				<li class="nav__list-item">
+					<a href="index.html" class="nav__list-link">
+						<div class="nav__badge">35</div>
+						<i class="fas fa-comment"></i>
+					</a>
+				</li>
+				<li class="nav__list-item">
+					<a href="hashtagnews.html" class="nav__list-link">
+						<i class="fas fa-hashtag"></i>
+					</a>
+				</li>
+				<li class="nav__list-item">
+					<a href="gamestar.html" class="nav__list-link">
+						<i class="far fa-star"></i>
+					</a>
+				</li>
+				<li class="nav__list-item">
+					<a href="more.html" class="nav__list-link">
+						<i class="fas fa-ellipsis-h"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="bigScreen">
+			<span class="bigScreen__text">Please make your screen smaller!</span>
+		</div>
+	</body>
 </html>
